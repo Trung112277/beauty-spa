@@ -1,18 +1,18 @@
-import { ICONS } from '@/constant/icon';
+import { ICON_SOCIAL } from '@/constant/icon';
 import { IconSmall } from './iconSmall';
 
 export function SocialIcon({ className }: { className?: string }) {
-  const socials = ['facebook', 'instagram', 'twitter'] as const;
+  const socials = Object.keys(ICON_SOCIAL) as Array<keyof typeof ICON_SOCIAL>;
   return (
     <ul className={className ? className : 'flex gap-3 text-[12px]'}>
       {socials.map((key) => {
-        const Icon = ICONS[key];
+        const Icon = ICON_SOCIAL[key];
         return (
-          <li>
+          <li key={key}>
             <a href="/">
-            <IconSmall key={key}>
-              <Icon size={15} />
-            </IconSmall>
+              <IconSmall>
+                <Icon size={15} />
+              </IconSmall>
             </a>
           </li>
         );

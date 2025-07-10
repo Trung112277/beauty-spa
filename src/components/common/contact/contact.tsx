@@ -1,5 +1,5 @@
 import { IconSmall } from '../icon/iconSmall';
-import { ICONS } from '@/constant/icon';
+import { ICON_CONTACT } from '@/constant/icon';
 
 export function Contact() {
   return (
@@ -7,7 +7,7 @@ export function Contact() {
       <li>
         <a href="mailto:mail@thewebmax.com" className="flex items-center gap-1">
           <IconSmall>
-            <ICONS.email size={15} />
+            <ICON_CONTACT.email size={15} />
           </IconSmall>
           mail@thewebmax.com
         </a>
@@ -15,7 +15,7 @@ export function Contact() {
       <li>
         <a href="tel:(654)321-7654" className="flex items-center gap-1">
           <IconSmall>
-            <ICONS.phone size={15} />
+            <ICON_CONTACT.phone size={15} />
           </IconSmall>
           (654) 321-7654
         </a>
