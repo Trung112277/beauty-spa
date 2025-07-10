@@ -4,7 +4,7 @@ import { SocialIcon } from '../icon/socialIcon';
 export function TopBar() {
   return (
     <div className="bg-primary">
-      <div className="container m-auto px-5 py-3 text-white flex justify-between items-center">
+      <div className="container m-auto px-5 py-3 text-black flex justify-between items-center">
         <Contact />
         <SocialIcon />
       </div>

@@ -4,15 +4,15 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    --background: #FFF5F5;
+    --foreground: #444444;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
-    --primary: #ec5598;
+    --primary: #F6DADA;
     --primary-foreground: 0 0% 98%;
-    --secondary: #4b3941;
+    --secondary: #aa8faa;
     --secondary-foreground: 0 0% 9%;
     --muted: 0 0% 96.1%;
     --muted-foreground: 0 0% 45.1%;
@@ -74,4 +74,7 @@ body{
   .container {
       max-width: 1250px;
   }
+}
+*{
+  transition:  0.3s all ease-in-out;
 }
