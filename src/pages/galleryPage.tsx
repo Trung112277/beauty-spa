@@ -1,3 +1,3 @@
-export function GalleyPage() {
+export function GalleryPage() {
   return <div>Galley Page</div>;
 }
