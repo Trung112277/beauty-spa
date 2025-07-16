@@ -11,6 +11,8 @@ import { OurTeamPage } from '@/pages/ourTeamPage';
 import { PortfolioPage } from '@/pages/portfolioPage';
 import { ServicesPage } from '@/pages/servicesPage';
 import { MainLayout } from '@/components/layout/mainLayout';
+import { LoginPage } from '@/pages/loginPage';
+import { RegisterPage } from '@/pages/registerPage';
 export function AppRoutes() {
   return (
     <Routes>
@@ -33,6 +35,8 @@ export function AppRoutes() {
         <Route path="/contact-us" element={<ContactUsPage />} />
         <Route path="/error" element={<ErrorPage />} />
       </Route>
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/register" element={<RegisterPage />} />
       <Route path="/dashboard" element={<DashboardPage />} />
     </Routes>
   );
