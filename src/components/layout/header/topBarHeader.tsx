@@ -1,6 +1,6 @@
 import { Languages } from '@/components/feature/languages/languages';
-import { Contact } from '../contact/contact';
-import { SocialIcon } from '../icon/socialIcon';
+import { Contact } from '../../common/contact/contact';
+import { SocialIcon } from '../../common/icon/socialIcon';
 
 export function TopBarHeader() {
   return (

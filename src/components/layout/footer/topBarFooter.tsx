@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { TextNormal } from '../../common/text/textNormal';
 export function TopBarFooter() {
   return (
     <div className="bg-primary">
@@ -8,10 +9,10 @@ export function TopBarFooter() {
             <h4 className="uppercase text-lg mb-4">
               We are ready to build your dream tell us more about your project
             </h4>
-            <p className="text-sm">
+            <TextNormal>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse viverra mauris eget tortor.
-            </p>
+            </TextNormal>
           </div>
           <div>
             <nav>
