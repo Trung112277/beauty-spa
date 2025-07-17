@@ -7,11 +7,9 @@ export function AboutCompany({ className }: { className?: string }) {
   return (
     <div className={cn('flex flex-col gap-8', className)}>
       <TitleFooter title="About Company" />
-      <h1>
-        <a href="/">
-          <Logo />
-        </a>
-      </h1>
+      <a href="/">
+        <Logo />
+      </a>
       <TextNormal>
         Thewebmax ipsum dolor sit amet, interior adipiscing elit, sed diam
         nonummy nibh is euismod tincidunt ut laoreet dolore are agna aliquam
