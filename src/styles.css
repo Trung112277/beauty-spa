@@ -61,10 +61,14 @@
 @layer base {
   * {
     @apply border-border;
+   
   }
   body {
     @apply bg-background text-foreground;
   }
+}
+*{
+  transition: 0.3s all ease-in-out;
 }
 
 body{
@@ -75,10 +79,13 @@ body{
       max-width: 1350px;
   }
 }
-*{
-  transition:  0.3s all ease-in-out;
-}
 *::selection {
   background: var(--primary);
   color: white;
+}
+
+[data-radix-popper-content-wrapper] {
+  transition-property: color, background, background-color, border, border-color, box-shadow, opacity, filter, outline, text-shadow, letter-spacing, font-size, font-weight, line-height, padding, margin, width, height, left, right, top, bottom, visibility, z-index !important;
+  transition-duration: 0.3s !important;
+  transition-timing-function: ease-in-out !important;
 }

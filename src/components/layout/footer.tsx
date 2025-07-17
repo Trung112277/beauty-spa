@@ -1,3 +1,11 @@
+import { MainFooter } from '../common/footer/mainFooter';
+import { TopBarFooter } from '../common/footer/topBarFooter';
+
 export function Footer() {
-  return <div>footer</div>;
+  return (
+    <footer>
+      <TopBarFooter />
+      <MainFooter />
+    </footer>
+  );
 }

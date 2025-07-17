@@ -1,0 +1,30 @@
+import { Link } from 'react-router-dom';
+export function TopBarFooter() {
+  return (
+    <div className="bg-primary">
+      <div className="bg-[url('/bg-7.png')]">
+        <div className="container mx-auto p-5 flex items-center justify-between">
+          <div>
+            <h4 className="uppercase text-lg mb-4">
+              We are ready to build your dream tell us more about your project
+            </h4>
+            <p className="text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse viverra mauris eget tortor.
+            </p>
+          </div>
+          <div>
+            <nav>
+              <Link
+                to="/contact-us"
+                className="uppercase font-bold px-4 py-3 bg-secondary hover:brightness-90 rounded-md text-white"
+              >
+                Contact Us
+              </Link>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

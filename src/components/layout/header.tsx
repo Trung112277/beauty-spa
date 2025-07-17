@@ -1,9 +1,9 @@
 import { MainHeader } from '../common/header/mainHeader';
-import { TopBar } from '../common/header/topBar';
+import { TopBarHeader } from '../common/header/topBarHeader';
 export function Header() {
   return (
     <header>
-      <TopBar />
+      <TopBarHeader />
       <MainHeader />
     </header>
   );

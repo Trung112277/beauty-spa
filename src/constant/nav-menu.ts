@@ -10,8 +10,11 @@ export const NAV_MENU_ITEMS = [
       { title: 'FAQ', to: '/services/faq' },
     ],
   },
-  { title: 'Our Team', to: '/our-team' },
+  {
+    title: 'Our Team',
+    to: '/our-team',
+  },
   { title: 'Career', to: '/career' },
   { title: 'Contact', to: '/contact-us' },
   { title: 'Dashboard', to: '/dashboard' },
-] as const; 
+] as const;
