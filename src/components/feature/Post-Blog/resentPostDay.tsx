@@ -1,4 +1,4 @@
-import { ResentPostDayProps } from "@/components/types/resentPostDay";
+import { ResentPostDayProps } from "@/types/resentPostDay";
 import { MONTHS } from "@/constant/months";
 
 export function ResentPostDay({ day, month, year }: ResentPostDayProps) {

@@ -1,5 +1,5 @@
 import { MessageCircle, User } from 'lucide-react';
-import { ResentPostInfoProps } from '@/components/types/resentPostInfo';
+import { ResentPostInfoProps } from '@/types/resentPostInfo';
 
 export function ResentPostInfo({
   url,
@@ -9,7 +9,7 @@ export function ResentPostInfo({
 }: ResentPostInfoProps) {
   return (
     <div className="w-full">
-      <h2 className="mb-3 font-bold text-sm">
+      <h2 className="mb-3 font-bold text-sm hover:text-primary">
         <a href={url}>{title}</a>
       </h2>
       <div className="flex gap-2 items-center text-xs text-gray-500">

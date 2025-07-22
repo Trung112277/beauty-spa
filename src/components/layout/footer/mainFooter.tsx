@@ -1,5 +1,7 @@
 import { AboutCompany } from './aboutCompany';
+import { Newsletter } from './newsletter';
 import { ResentPost } from './resentPost';
+import { SocialLinks } from './socialLinks';
 import { UsefulLinks } from './usefulLinks';
 
 export function MainFooter() {
@@ -8,6 +10,10 @@ export function MainFooter() {
       <AboutCompany className="pr-3" />
       <ResentPost className="px-3" />
       <UsefulLinks className="px-3" />
+      <div className="pl-3 flex flex-col gap-10">
+        <Newsletter />
+        <SocialLinks />
+      </div>
     </div>
   );
 }
