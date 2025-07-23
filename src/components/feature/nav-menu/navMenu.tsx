@@ -7,8 +7,8 @@ import {
   NavigationMenuTrigger,
   NavigationMenuContent,
 } from '@/components/ui/navigation-menu';
-import { NAV_MENU_ITEMS } from '@/constant/nav-menu';
-import { NavMenuItem } from '@/components/types/navMenu';
+import { NAV_MENU_ITEMS } from '@/constant/navMenu';
+import { NavMenuItem } from '@/types/navMenu';
 
 export function NavMenu() {
   return (

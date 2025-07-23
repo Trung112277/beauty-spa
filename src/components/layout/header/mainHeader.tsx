@@ -1,6 +1,6 @@
 import { NavMenu } from '@/components/feature/nav-menu/navMenu';
 import { Logo } from '../../common/logo/logo';
-import { LoginUser } from '@/components/feature/login-user/loginUser';
+import { LoginUser } from '@/components/feature/user/login-user/loginUser';
 
 export function MainHeader() {
   return (

@@ -1,4 +1,4 @@
-import { Mail, Phone, Facebook, Instagram, Twitter, Search, User, Eye, Lock, Menu } from 'lucide-react';
+import { Mail, Phone, Facebook, Instagram, Youtube, Search, User, Eye, Lock, Menu } from 'lucide-react';
 
 export const ICON_CONTACT = {
   email: Mail,
@@ -8,7 +8,7 @@ export const ICON_CONTACT = {
 export const ICON_SOCIAL = {
   facebook: Facebook,
   instagram: Instagram,
-  twitter: Twitter,
+  youtube: Youtube,
 } as const;
 
 export const ICON_UI = {

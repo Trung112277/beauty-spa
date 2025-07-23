@@ -1,5 +1,6 @@
-import { ICON_SOCIAL } from '@/constant/icon';
+import { ICON_SOCIAL } from '@/constant/iconSocialContact';
 import { IconSmall } from './iconSmall';
+import { Link } from 'react-router-dom';
 
 export function SocialIcon({ className }: { className?: string }) {
   const socials = Object.keys(ICON_SOCIAL) as Array<keyof typeof ICON_SOCIAL>;
@@ -10,11 +11,11 @@ export function SocialIcon({ className }: { className?: string }) {
           const Icon = ICON_SOCIAL[key];
           return (
             <li key={key}>
-              <a href="/">
+              <Link to="/" target="_blank">
                 <IconSmall>
                   <Icon size={15} />
                 </IconSmall>
-              </a>
+              </Link>
             </li>
           );
         })}
