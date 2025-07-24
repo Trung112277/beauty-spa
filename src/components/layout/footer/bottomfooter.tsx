@@ -1,6 +1,6 @@
 import { CopyRight } from './copyRight';
 import { FooterStrip } from './footerStrip';
-import { CopyRightNav } from '@/components/feature/nav-menu/copyRightNav';
+import { CopyRightNav } from '@/components/feature/navMenu/copyrightMenu/copyRightNav';
 export function BottomFooter() {
   return (
     <div>

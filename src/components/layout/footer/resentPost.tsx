@@ -1,4 +1,4 @@
-import { ResentPostItem } from '@/components/feature/Post-Blog/resentPostItem';
+import { ResentPostItem } from '@/components/feature/postBlog/resentPostItem';
 import { TitleFooter } from './titleFooter';
 import { cn } from '@/lib/utils';
 import { useTranslation } from 'react-i18next';

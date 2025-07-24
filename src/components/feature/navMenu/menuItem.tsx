@@ -5,7 +5,7 @@ export type MenuItemProps = {
   title: string;
 };
 
-export function UsefulMenuItem({ url, title }: MenuItemProps) {
+export function MenuItem({ url, title }: MenuItemProps) {
   return (
     <Link to={url} className="hover:text-primary">
       {title}

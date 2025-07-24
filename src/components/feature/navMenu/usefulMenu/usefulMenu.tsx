@@ -1,6 +1,6 @@
 import { USEFUL_MENU_PAGES } from '@/constant/usefulMenuPages';
-import { MenuListItem } from './menuListItem';
 import { useTranslation } from 'react-i18next';
+import { UsefulNavItem } from './usefulNavItem';
 
 export function UsefulMenu() {
   const { t } = useTranslation();
@@ -8,7 +8,7 @@ export function UsefulMenu() {
     <nav>
       <ul className="flex flex-col gap-2">
         {USEFUL_MENU_PAGES.map((page) => (
-          <MenuListItem key={page.url} url={page.url} title={t(page.title)} />
+          <UsefulNavItem key={page.url} url={page.url} title={t(page.title)} />
         ))}
       </ul>
     </nav>
