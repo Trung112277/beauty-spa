@@ -89,3 +89,12 @@ body{
   transition-duration: 0.3s !important;
   transition-timing-function: ease-in-out !important;
 }
+body[style="pointer-events: none"] {
+  pointer-events: auto !important;
+} 
+html body[data-scroll-locked] {
+  overflow: auto !important;
+  overscroll-behavior: auto !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
