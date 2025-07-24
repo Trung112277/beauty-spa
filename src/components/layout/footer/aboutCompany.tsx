@@ -1,12 +1,15 @@
+import { useTranslation } from 'react-i18next';
 import { Logo } from '../../common/logo/logo';
 import { TextNormal } from '../../common/text/textNormal';
 import { TitleFooter } from './titleFooter';
 import { cn } from '@/lib/utils';
 
 export function AboutCompany({ className }: { className?: string }) {
+  const { t } = useTranslation();
+
   return (
     <div className={cn('flex flex-col gap-8', className)}>
-      <TitleFooter title="About Company" />
+      <TitleFooter title={t('about_company')} />
       <a href="/">
         <Logo />
       </a>

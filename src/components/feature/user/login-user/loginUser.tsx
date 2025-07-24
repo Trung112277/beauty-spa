@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 export function LoginUser() {
   const { t } = useTranslation();
-
   return (
     <nav>
       <Link
