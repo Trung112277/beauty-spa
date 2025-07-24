@@ -44,7 +44,7 @@ export function FormFooter() {
           disabled={loading}
         >
           {loading ? (
-            <span className="animate-spin w-4 h-4 border-2 border-white border-t-transparent rounded-full inline-block"></span>
+            <span className="animate-spin w-4 h-4 border-2 border-foreground border-t-transparent rounded-full inline-block"></span>
           ) : (
             <Send className="text-foreground" />
           )}

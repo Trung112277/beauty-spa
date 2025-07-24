@@ -1,4 +1,4 @@
-import { SeparatorIcon } from './separatorIcon';
+import { SeparatorIcon } from "./separatorIcon";
 
 export function SeparatorOuter() {
   return (

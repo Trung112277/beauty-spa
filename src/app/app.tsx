@@ -1,5 +1,5 @@
 import { AppRoutes } from './routes';
-import LoadingScreen from '@/components/common/LoadingScreen';
+import LoadingScreen from '@/components/common/loadingScreen/LoadingScreen';
 import { useRouteLoading } from '@/hooks/useRouteLoading';
 
 export function App() {

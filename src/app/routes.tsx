@@ -1,6 +1,6 @@
 import { Routes, Route, Outlet } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
-import LoadingScreen from '@/components/common/LoadingScreen';
+import LoadingScreen from '@/components/common/loadingScreen/LoadingScreen';
 import { MainLayout } from '@/components/layout/mainLayout';
 
 const HomePage = lazy(() => import('@/pages/homePage'));

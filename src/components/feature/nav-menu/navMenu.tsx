@@ -15,7 +15,10 @@ export function NavMenu() {
     <NavigationMenu viewport={false}>
       <NavigationMenuList>
         {[...(NAV_MENU_ITEMS as unknown as NavMenuItem[])].map((item) => (
-          <NavigationMenuItem key={item.to} className="relative">
+          <NavigationMenuItem
+            key={item.to}
+            className={item.children?.length ? 'relative' : undefined}
+          >
             {item.children?.length ? (
               <>
                 <NavigationMenuTrigger className="bg-transparent py-1 px-2 text-base">
