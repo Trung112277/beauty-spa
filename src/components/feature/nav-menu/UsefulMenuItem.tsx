@@ -1,17 +1,14 @@
 import { Link } from 'react-router-dom';
-import { ChevronRight } from 'lucide-react';
-export interface UsefulMenuItemProps {
+
+export type MenuItemProps = {
   url: string;
   title: string;
-}
+};
 
-export function UsefulMenuItem({ url, title }: UsefulMenuItemProps) {
+export function UsefulMenuItem({ url, title }: MenuItemProps) {
   return (
-    <li className="border-b border-dashed border-primary flex items-center gap-2 py-3">
-      <ChevronRight size={15} />{' '}
-      <Link to={url} className="hover:text-primary">
-        {title}
-      </Link>
-    </li>
+    <Link to={url} className="hover:text-primary">
+      {title}
+    </Link>
   );
 }
