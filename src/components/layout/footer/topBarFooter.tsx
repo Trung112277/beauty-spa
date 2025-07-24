@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 import { TextNormal } from '../../common/text/textNormal';
+import { useTranslation } from 'react-i18next';
 export function TopBarFooter() {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-primary">
       <div className="bg-[url('/bg-7.png')]">
@@ -14,13 +17,13 @@ export function TopBarFooter() {
               Suspendisse viverra mauris eget tortor.
             </TextNormal>
           </div>
-          <div className='min-w-fit'>
+          <div className="min-w-fit">
             <nav>
               <Link
                 to="/contact-us"
                 className="uppercase font-bold px-4 py-3 bg-secondary hover:brightness-90 rounded-md text-white"
               >
-                Contact Us
+                {t('contact_us')}
               </Link>
             </nav>
           </div>

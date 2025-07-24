@@ -9,8 +9,10 @@ import {
 } from '@/components/ui/navigation-menu';
 import { NAV_MENU_ITEMS } from '@/constant/navMenu';
 import { NavMenuItem } from '@/types/navMenu';
+import { useTranslation } from 'react-i18next';
 
 export function NavMenu() {
+  const { t } = useTranslation();
   return (
     <NavigationMenu viewport={false}>
       <NavigationMenuList>
@@ -26,7 +28,7 @@ export function NavMenu() {
                     to={item.to}
                     className="uppercase font-bold hover:text-primary"
                   >
-                    {item.title}
+                    {t(item.title)}
                   </Link>
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="absolute left-0 top-full z-50 bg-white min-w-[250px] shadow-lg border">
@@ -41,7 +43,7 @@ export function NavMenu() {
                             to={child.to}
                             className="block font-bold hover:text-primary p-2"
                           >
-                            {child.title}
+                            {t(child.title)}
                           </Link>
                         </NavigationMenuLink>
                       </li>
@@ -55,7 +57,7 @@ export function NavMenu() {
                   to={item.to}
                   className="py-1 px-2 uppercase font-bold hover:text-primary"
                 >
-                  {item.title}
+                  {t(item.title)}
                 </Link>
               </NavigationMenuLink>
             )}

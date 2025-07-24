@@ -1,20 +1,20 @@
 export const NAV_MENU_ITEMS = [
-  { title: 'Home', to: '/' },
-  { title: 'About Us', to: '/about-us' },
+  { title: 'home', to: '/' },
+  { title: 'about', to: '/about-us' },
   {
-    title: 'Services',
+    title: 'services',
     to: '/services',
     children: [
-      { title: 'Portfolio', to: '/services/portfolio' },
-      { title: 'Gallery', to: '/services/gallery' },
-      { title: 'FAQ', to: '/services/faq' },
+      { title: 'portfolio', to: '/services/portfolio' },
+      { title: 'gallery', to: '/services/gallery' },
+      { title: 'faq', to: '/services/faq' },
     ],
   },
   {
-    title: 'Our Team',
+    title: 'ourTeam',
     to: '/our-team',
   },
-  { title: 'Career', to: '/career' },
-  { title: 'Contact', to: '/contact-us' },
-  { title: 'Dashboard', to: '/dashboard' },
+  { title: 'career', to: '/career' },
+  { title: 'contact', to: '/contact-us' },
+  { title: 'dashboard', to: '/dashboard' },
 ] as const;
