@@ -1,11 +1,10 @@
-import { ResentPostDay } from './resentPostDay';
-import { ResentPostInfo } from './resentPostInfo';
-import { RESENT_POST_ITEMS } from '@/constant/resentPostItems';
+import { ResentPostDay } from './Post-day';
+import { ResentPostInfo } from './Post-info';
 
-export function ResentPostItem() {
+export function PostList({ posts }: { posts: any[] }) {
   return (
     <div className="flex flex-col gap-6">
-      {RESENT_POST_ITEMS.map((item, idx) => (
+      {posts.map((item, idx) => (
         <article key={idx} className="flex gap-5 items-center">
           <ResentPostDay day={item.day} month={item.month} year={item.year} />
           <ResentPostInfo
