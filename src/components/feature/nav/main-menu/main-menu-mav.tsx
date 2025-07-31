@@ -7,11 +7,11 @@ import {
   NavigationMenuTrigger,
   NavigationMenuContent,
 } from '@/components/ui/navigation-menu';
-import { NAV_MENU_ITEMS } from '@/constant/navMenu';
+import { NAV_MENU_ITEMS } from '@/constant/nav-menu';
 import { NavMenuItem } from '@/types/navMenu';
 import { useTranslation } from 'react-i18next';
 
-export function NavMenu() {
+export function MainMenuNav() {
   const { t } = useTranslation();
   return (
     <NavigationMenu viewport={false}>

@@ -1,4 +1,4 @@
-import { ICON_CONTACT } from './iconSocialContact';
+import { ICON_CONTACT } from './icon-social-contact';
 
 export const CONTACT_INFO = [
   {

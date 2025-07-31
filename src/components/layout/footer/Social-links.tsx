@@ -1,6 +1,6 @@
 import { cn } from '@/lib/utils';
-import { TitleFooter } from './titleFooter';
-import { SocialIcon } from '@/components/common/icon/socialIcon';
+import { TitleFooter } from './Title-footer';
+import { SocialIcon } from '@/components/common/icon/Social-icon';
 import { useTranslation } from 'react-i18next';
 
 export function SocialLinks({ className }: { className?: string }) {

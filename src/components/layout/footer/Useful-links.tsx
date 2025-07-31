@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
-import { TitleFooter } from "./titleFooter";
-import { UsefulMenu } from "@/components/feature/navMenu/usefulMenu/usefulMenu";
+import { TitleFooter } from "./Title-footer";
+import { UsefulMenu } from "@/components/feature/nav/useful-menu/Useful-menu";
 import { useTranslation } from 'react-i18next';
 
 export function UsefulLinks({ className }: { className?: string }){

@@ -1,5 +1,5 @@
-import { COPY_RIGHT_NAV } from '@/constant/copyRightNav';
-import { CopyRightNavItem } from './copyRightNavItem';
+import { COPY_RIGHT_NAV } from '@/constant/copyright-nav';
+import { CopyRightNavItem } from './Copyright-nav-item';
 import { useTranslation } from 'react-i18next';
 import React from 'react';
 

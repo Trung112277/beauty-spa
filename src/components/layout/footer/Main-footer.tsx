@@ -1,8 +1,8 @@
-import { AboutCompany } from './aboutCompany';
-import { Newsletter } from './newsletter';
-import { ResentPost } from './resentPost';
-import { SocialLinks } from './socialLinks';
-import { UsefulLinks } from './usefulLinks';
+import { AboutCompany } from './About-company';
+import { Newsletter } from './News-letter';
+import { ResentPost } from '../../feature/post-blog/Recent-post';
+import { SocialLinks } from './Social-links';
+import { UsefulLinks } from './Useful-links';
 
 export function MainFooter() {
   return (

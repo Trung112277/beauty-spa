@@ -1,4 +1,4 @@
-import { SeparatorIcon } from "./separatorIcon";
+import { SeparatorIcon } from "./Separator-icon";
 export function SeparatorRight() {
   return (
     <div className="flex gap-3 items-center justify-left">

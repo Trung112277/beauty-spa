@@ -1,4 +1,4 @@
-import { TextNormal } from '@/components/common/text/textNormal';
+import { TextNormal } from '@/components/common/text/Text-normal';
 import { Link } from 'react-router-dom';
 
 type CopyRightProps = {

@@ -1,6 +1,6 @@
-import { BottomFooter } from './bottomfooter';
-import { MainFooter } from './mainFooter';
-import { TopBarFooter } from './topBarFooter';
+import { BottomFooter } from './Bottom-footer';
+import { MainFooter } from './Main-footer';
+import { TopBarFooter } from './Top-bar-footer';
 
 export function Footer() {
   return (

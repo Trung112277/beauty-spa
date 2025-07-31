@@ -1,21 +1,21 @@
 import { Routes, Route, Outlet } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
-import LoadingScreen from '@/components/common/loadingScreen/LoadingScreen';
-import { MainLayout } from '@/components/layout/mainLayout';
+import LoadingScreen from '@/components/common/loading-screen/Loading-screen';
+import { MainLayout } from '@/components/layout/Main-layout';
 
-const HomePage = lazy(() => import('@/pages/homePage'));
-const AboutUsPage = lazy(() => import('@/pages/aboutUsPage'));
-const DashboardPage = lazy(() => import('@/pages/dashboardPage'));
-const CareerPage = lazy(() => import('@/pages/careerPage'));
-const ContactUsPage = lazy(() => import('@/pages/contactUsPage'));
-const ErrorPage = lazy(() => import('@/pages/errorPage'));
-const FaqPage = lazy(() => import('@/pages/faqPage'));
-const GalleryPage = lazy(() => import('@/pages/galleryPage'));
-const OurTeamPage = lazy(() => import('@/pages/ourTeamPage'));
-const PortfolioPage = lazy(() => import('@/pages/portfolioPage'));
-const ServicesPage = lazy(() => import('@/pages/servicesPage'));
-const LoginPage = lazy(() => import('@/pages/loginPage'));
-const RegisterPage = lazy(() => import('@/pages/registerPage'));
+const HomePage = lazy(() => import('@/pages/Home-page'));
+const AboutUsPage = lazy(() => import('@/pages/About-us-page'));
+const DashboardPage = lazy(() => import('@/pages/Dashboard-page'));
+const CareerPage = lazy(() => import('@/pages/Career-page'));
+const ContactUsPage = lazy(() => import('@/pages/Contact-us-page'));
+const ErrorPage = lazy(() => import('@/pages/Error-page'));
+const FaqPage = lazy(() => import('@/pages/Faq-page'));
+const GalleryPage = lazy(() => import('@/pages/Gallery-page'));
+const OurTeamPage = lazy(() => import('@/pages/Our-team-page'));
+const PortfolioPage = lazy(() => import('@/pages/Portfolio-page'));
+const ServicesPage = lazy(() => import('@/pages/Services-page'));
+const LoginPage = lazy(() => import('@/pages/Login-page'));
+const RegisterPage = lazy(() => import('@/pages/Register-page'));
 
 export function AppRoutes() {
   return (

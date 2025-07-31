@@ -1,6 +1,6 @@
-import { USEFUL_MENU_PAGES } from '@/constant/usefulMenuPages';
+import { USEFUL_MENU_PAGES } from '@/constant/useful-menu-pages';
 import { useTranslation } from 'react-i18next';
-import { UsefulNavItem } from './usefulNavItem';
+import { UsefulNavItem } from './Usefu-nav-item';
 
 export function UsefulMenu() {
   const { t } = useTranslation();

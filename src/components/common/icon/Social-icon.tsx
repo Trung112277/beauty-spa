@@ -1,5 +1,5 @@
-import { ICON_SOCIAL } from '@/constant/iconSocialContact';
-import { IconSmall } from './iconSmall';
+import { ICON_SOCIAL } from '@/constant/icon-social-contact';
+import { IconSmall } from './Icon-small';
 import { Link } from 'react-router-dom';
 
 export function SocialIcon({ className }: { className?: string }) {

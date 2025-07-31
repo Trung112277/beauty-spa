@@ -1,5 +1,5 @@
 import { ChevronRight } from 'lucide-react';
-import { MenuItemProps, MenuItem } from '../menuItem';
+import { MenuItemProps, MenuItem } from '../Menu-item';
 
 export function UsefulNavItem({ url, title }: MenuItemProps) {
   return (

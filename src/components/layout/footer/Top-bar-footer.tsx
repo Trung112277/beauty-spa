@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { TextNormal } from '../../common/text/textNormal';
+import { TextNormal } from '../../common/text/Text-normal';
 import { useTranslation } from 'react-i18next';
 export function TopBarFooter() {
   const { t } = useTranslation();

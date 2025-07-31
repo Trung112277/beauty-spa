@@ -12,7 +12,7 @@ import { Input } from '@/components/ui/input';
 import { useFormFooter } from '../../../hooks/useFormFooter';
 import { Send } from 'lucide-react';
 
-export function FormFooter() {
+export function NotificationNewsForm() {
   const { form, onSubmit, loading } = useFormFooter();
   return (
     <Form {...form}>

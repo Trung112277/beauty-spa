@@ -1,4 +1,4 @@
-import { SeparatorRight } from '../../common/deco/separatorRight';
+import { SeparatorRight } from '../../common/deco/Separator-right';
 
 export function TitleFooter({ title }: { title: string }) {
   return (

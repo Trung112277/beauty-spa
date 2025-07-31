@@ -1,4 +1,4 @@
-import { MenuItemProps, MenuItem } from '../menuItem';
+import { MenuItemProps, MenuItem } from '../Menu-item';
 
 export function CopyRightNavItem({ url, title }: MenuItemProps) {
   return (

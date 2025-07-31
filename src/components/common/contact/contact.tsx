@@ -1,4 +1,4 @@
-import { IconSmall } from '../icon/iconSmall';
+import { IconSmall } from '../icon/Icon-small';
 import { CONTACT_INFO } from '@/constant/contact';
 
 export function Contact() {
