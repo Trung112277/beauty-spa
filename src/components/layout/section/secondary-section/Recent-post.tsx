@@ -1,5 +1,5 @@
 import { RecentPostsList } from '@/components/feature/post-blog/Recent-posts-list';
-import { HeadingSecondary } from '../../../common/heading/heading-secondary';
+import { HeadingSecondary } from '../../../common/heading/Heading-secondary';
 import { cn } from '@/lib/utils';
 import { useTranslation } from 'react-i18next';
 

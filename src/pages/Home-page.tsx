@@ -1,5 +1,9 @@
+import { HeadingPrimary } from "@/components/common/heading/Heading.primary";
+
 export function HomePage() {
-    return <div>Home Page</div>;
+    return <div>
+      <HeadingPrimary title="xin chào" />
+    </div>;
   }
 export default HomePage;
   

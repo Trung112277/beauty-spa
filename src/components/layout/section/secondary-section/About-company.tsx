@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Logo } from '../../../common/logo/Logo';
 import { TextNormal } from '../../../common/text/Text-normal';
-import { HeadingSecondary } from '../../../common/heading/heading-secondary';
+import { HeadingSecondary } from '../../../common/heading/Heading-secondary';
 import { cn } from '@/lib/utils';
 
 export function AboutCompany({ className }: { className?: string }) {

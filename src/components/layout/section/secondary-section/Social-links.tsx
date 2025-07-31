@@ -1,5 +1,5 @@
 import { cn } from '@/lib/utils';
-import { HeadingSecondary } from '../../../common/heading/heading-secondary';
+import { HeadingSecondary } from '../../../common/heading/Heading-secondary';
 import { SocialIcon } from '@/components/common/icon/Social-icon';
 import { useTranslation } from 'react-i18next';
 
