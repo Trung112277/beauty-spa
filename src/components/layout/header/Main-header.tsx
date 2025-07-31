@@ -1,6 +1,6 @@
 import { MainMenuNav } from '@/components/feature/nav/main-menu/main-menu-mav';
 import { Logo } from '../../common/logo/Logo';
-import { LoginUser } from '@/components/feature/user/login-user/Login-user';
+import { LoginButton } from '@/components/feature/auth/Login-button';
 
 export function MainHeader() {
   return (
@@ -12,7 +12,7 @@ export function MainHeader() {
           </a>
         </h1>
         <MainMenuNav />
-        <LoginUser />
+        <LoginButton />
       </div>
     </div>
   );

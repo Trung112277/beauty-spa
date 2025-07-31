@@ -1,6 +1,5 @@
 import { MainLayout } from '@/components/layout/Main-layout';
 
-// Route component wrapper
 export const RouteWrapper = ({ component: Component }: { component: React.ComponentType }) => (
   <Component />
 );

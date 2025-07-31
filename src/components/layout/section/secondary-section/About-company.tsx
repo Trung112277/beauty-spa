@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Logo } from '../../../common/logo/Logo';
 import { TextNormal } from '../../../common/text/Text-normal';
-import { TitleSecondary } from '../../../common/title/Title-secondary';
+import { HeadingSecondary } from '../../../common/heading/heading-secondary';
 import { cn } from '@/lib/utils';
 
 export function AboutCompany({ className }: { className?: string }) {
@@ -9,7 +9,7 @@ export function AboutCompany({ className }: { className?: string }) {
 
   return (
     <div className={cn('flex flex-col gap-8', className)}>
-      <TitleSecondary title={t('about_company')} />
+      <HeadingSecondary title={t('about_company')} />
       <a href="/">
         <Logo />
       </a>
