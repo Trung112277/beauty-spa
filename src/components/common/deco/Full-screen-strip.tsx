@@ -1,7 +1,7 @@
-import { Strip } from '@/components/common/deco/strip';
+import { Strip } from '@/components/common/deco/Strip';
 import { useStripCount } from '@/hooks/useStripCount';
 
-function FooterStripList({ count, stripWidth, stripHeight }: { count: number; stripWidth: number; stripHeight: number }) {
+function FullStrip({ count, stripWidth, stripHeight }: { count: number; stripWidth: number; stripHeight: number }) {
   return (
     <div className="w-full h-[40px] flex overflow-hidden text-primary" style={{ fontSize: 0 }}>
       {Array.from({ length: count }).map((_, i) => (
@@ -16,11 +16,11 @@ function FooterStripList({ count, stripWidth, stripHeight }: { count: number; st
   );
 }
 
-export function FooterStrip() {
+export function FullScreenStrip() {
   const stripWidth = 500;
   const stripHeight = 40;
   const extraStrip = 10;
   const count = useStripCount(stripWidth, extraStrip);
 
-  return <FooterStripList count={count} stripWidth={stripWidth} stripHeight={stripHeight} />;
+  return <FullStrip count={count} stripWidth={stripWidth} stripHeight={stripHeight} />;
 }

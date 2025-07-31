@@ -27,6 +27,7 @@ export function MainMenuNav() {
                   <Link
                     to={item.to}
                     className="uppercase font-bold hover:text-primary"
+                    title={item.title}
                   >
                     {t(item.title)}
                   </Link>
@@ -42,6 +43,7 @@ export function MainMenuNav() {
                           <Link
                             to={child.to}
                             className="block font-bold hover:text-primary p-2"
+                            title={item.title}
                           >
                             {t(child.title)}
                           </Link>
@@ -56,6 +58,7 @@ export function MainMenuNav() {
                 <Link
                   to={item.to}
                   className="py-1 px-2 uppercase font-bold hover:text-primary"
+                  title={item.title}
                 >
                   {t(item.title)}
                 </Link>

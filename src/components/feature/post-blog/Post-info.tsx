@@ -10,7 +10,7 @@ export function ResentPostInfo({
 }: ResentPostInfoProps) {
   return (
     <div className="w-full">
-      <h2 className="mb-3 font-bold text-sm hover:text-primary">
+      <h2 className="mb-3 font-bold text-sm hover:text-primary" title={title}>
         <Link to={url}>{title}</Link>
       </h2>
       <div className="flex gap-2 items-center text-xs text-gray-500">

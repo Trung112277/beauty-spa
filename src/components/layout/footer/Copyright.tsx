@@ -6,7 +6,7 @@ type CopyRightProps = {
   year: number;
 };
 
-export function CopyRight({ Company, year }: CopyRightProps) {
+export function Copyright({ Company, year }: CopyRightProps) {
   return (
     <TextNormal>
       © {year} {Company}. All Rights Reserved. Designed By{' '}

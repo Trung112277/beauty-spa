@@ -7,7 +7,7 @@ export type MenuItemProps = {
 
 export function MenuItem({ url, title }: MenuItemProps) {
   return (
-    <Link to={url} className="hover:text-primary">
+    <Link to={url} title={title} className="hover:text-primary">
       {title}
     </Link>
   );
